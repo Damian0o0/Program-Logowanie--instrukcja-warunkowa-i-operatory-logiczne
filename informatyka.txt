@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() 
+{
+	string imie, imie_1="Damian";
+	string praca, praca_1="Brak";
+	
+	cout<<"Podaj swoję imię"<<endl;
+	cin>>imie;
+	cout<<"Podaj swoją pracę"<<endl;
+	cin>>praca;
+	
+	if (imie==imie_1 && praca==praca_1)
+	cout<<"Poprawne dane";
+	
+	else
+	cout<<"Błędne dane"<<endl;
+	
+	return 0;
+}
